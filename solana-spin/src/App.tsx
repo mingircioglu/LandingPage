@@ -41,7 +41,7 @@ body{
 h1{margin:0 0 12px;font-size:28px;color:var(--txt);line-height:1.2}
 p{color:var(--muted);margin:8px 0 0}
 
-.cta{
+.cta {
   display:inline-block;
   margin-top:18px;
   padding:14px 20px;
@@ -49,10 +49,14 @@ p{color:var(--muted);margin:8px 0 0}
   background:#7c5cff;
   color:#fff;
   text-decoration:none;
-  font-weight:600
+  font-weight:600;
 }
-.cta:active{transform:translateY(1px)}
-
+.cta:active {
+  transform:translateY(1px);
+}
+.cta:visited {
+  color: #fff;   /* her zaman beyaz kalır */
+}
 .footer{margin-top:18px;font-size:12px;color:#9aa3b2}
 .logo{display:flex;gap:10px;align-items:center;margin-bottom:10px}
 .badge{background:#1b1f2d;color:#cfd6ea;padding:2px 8px;border-radius:999px;font-size:12px;margin-left:6px}
