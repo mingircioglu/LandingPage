@@ -1,4 +1,8 @@
-import React from "react";
+// src/App.tsx
+
+// Not: Bilerek React import etmedik (unused hatasını engellemek için).
+// İstersen tip belirtmek için şunu ekleyebilirsin:
+// import type { JSX } from "react";  // sonra fonksiyonu : JSX.Element ile tipleyebilirsin.
 
 const styles = `
 :root { --bg:#0b0c10; --card:#121319; --txt:#e8eaf0; --muted:#a8afbf; }
@@ -22,7 +26,7 @@ p{color:var(--muted);margin:8px 0 0}
 .pill{background:#171b27;color:#cfd6ea;border:1px solid #242838;border-radius:10px;padding:10px 12px}
 `;
 
-export default function SolanaSpinDemo(): JSX.Element {
+export default function SolanaSpinDemo() {
   return (
     <>
       <style>{styles}</style>
@@ -58,7 +62,7 @@ export default function SolanaSpinDemo(): JSX.Element {
             className="cta"
             href="https://t.me/BonusSolanaBot"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Open on Telegram
           </a>
