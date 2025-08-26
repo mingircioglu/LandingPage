@@ -107,7 +107,21 @@ export default function SolanaSpinDemo() {
             Open on Telegram
           </a>
 
-<div className="footer"> <div>Not financial advice. Powered by Solana Community.</div> <div style={{ marginTop: 6 }}> <a href="https://solana.com/privacy-policy" style={{ color: "#b8c1d9" }}> Privacy </a>{" "} ·{" "} <a href="https://solana.com/en/tos" style={{ color: "#b8c1d9" }}> Terms </a> </div> </div>        </div>
+<div className="footer">
+  <div>Not financial advice</div>
+  <div>Powered by Solana Community</div>
+
+  <div style={{ marginTop: 6 }}>
+    <a href="https://solana.com/privacy-policy" style={{ color: "#b8c1d9" }}>
+      Privacy
+    </a>{" "}
+    ·{" "}
+    <a href="https://solana.com/en/tos" style={{ color: "#b8c1d9" }}>
+      Terms
+    </a>
+  </div>
+</div>
+        </div>
       </div>
     </>
   );
